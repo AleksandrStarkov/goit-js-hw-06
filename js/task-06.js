@@ -12,6 +12,7 @@ inputEl.addEventListener('blur', event => {
     inputEl.classList.replace('valid', 'invalid');
     console.log(inputEl);
   } else {
+    inputEl.classList.add('valid');
     inputEl.classList.replace('invalid', 'valid');
     console.log(inputEl);
   }
